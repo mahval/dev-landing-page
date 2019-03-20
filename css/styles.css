@@ -26,10 +26,16 @@ html {
 	html {
 		font-size: 20px;
 	}
+	main > .about {
+		max-width: 70%;
+		margin: 0 auto;
+	}
 }
 
-.icons-social i {
+.is i {
 	font-size: 3em;
+	color: black;
+	padding: 10px;
 }
 
 /* Custom Styles */
@@ -55,8 +61,10 @@ main > .tagline {
 	font-weight: 100;
 }
 
-.icons-social i {
-	padding: 10px;
+main > .about p {
+	font-size: 1rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
 }
 
 .devto {
