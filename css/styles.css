@@ -61,6 +61,11 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .tagline a {
+	font-weight: 700;
+	color: #FF6F00;
+}
+
 main > .about p {
 	font-size: 1rem;
 	margin: 1.5rem 0;
